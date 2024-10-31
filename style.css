@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(187, 131, 212);
+}
+
+.cabecalho-img {
+    height: 70px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 35px;
+    color: rgb(129, 27, 83);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.botao {
+    padding: 10px;
+    color:rgb(129, 27, 83);
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color:rgb(107, 101, 187);
+    border-radius: 50%;
+}
+
+.conteudo {
+    border-top: #c97094 0.4px solid;
+    background: linear-gradient(68.15deg, #744d53 16.62%, #a572b1 85.61%);
+    color: #182825;
+}
+
+.primeiro-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 500px;
+    text-align: justify;
+}
+
+.conteudo-escrito-titulo {
+    font-size: 48px;
+}
+
+.angel-img {
+    height: 450px;
+    border-radius: 20%;
+    border: 6px solid #e6adec;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.segundo-conteudo {
+    border-top: #66a182 1px solid;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.segundo-conteudo-titulo {
+    font-size: 35px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.terceiro-conteudo {
+    border-top: #66a182 1px solid;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+    
+.filmes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+    
+.terceiro-conteudo-titulo {
+    font-size: 35px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+    
+.filme-item {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+    
+.filme-item img {
+    max-width: 100%;
+    max-height: 320px;
+    height: auto;
+    border-radius: 20%;
+    border: 5px solid #fff697;
+    border-radius: 5px;
+}
+    
+.filme-item p {
+    text-align: justify;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.quarto-conteudo {
+    border-top: #66a182 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+    
+.quarto-conteudo-titulo {
+    font-size: 35px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+    
+.coracao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 100px;
+}
+    
+.artistas {
+    border-radius: 20%;
+    border: 6px solid #c4bd79;
+    max-width: 100%;
+    max-height: 120px;
+    height: auto;
+}
+
+.rodape {
+    padding: 20px;
+    background: #95669f;
+}
+    
+#icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+    
+.logo-redesocial {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+} 
